@@ -5865,7 +5865,8 @@ button.close {
   background: transparent;
   border: 0;
 }
-.modal-open {
+.
+al-open {
   overflow: hidden;
 }
 .modal {
@@ -6241,8 +6242,8 @@ button.close {
 }
 .carousel-inner {
   position: relative;
-  width: 1309px;
-  height: 736px;
+  width: 100%;
+  height: 100%;
   /*overflow: hidden;*/
 }
 .carousel-inner > .item {
