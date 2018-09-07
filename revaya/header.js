@@ -1,83 +1,77 @@
-    
-    document.write(header);
-var header = '<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> \
-            <div class="container">\
-            <!-- Brand and toggle get grouped for better mobile display -->\
-            <div class="navbar-header">\
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">\
-                    <span class="sr-only">Toggle navigation</span>\
-                    <span class="icon-bar"></span>\
-                    <span class="icon-bar"></span>\
-                    <span class="icon-bar"></span>\
-                </button>\
-                <a class="navbar-brand" href="index.html">Revaya Technology Co., Ltd.</</a>\
-            </div>\
-            <!-- Collect the nav links, forms, and other content for toggling -->\  
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">\
-                <ul class="nav navbar-nav navbar-right">\
-                    <li>\
-                        <a href="about.html">About</a>\
-                    </li>\
-                    <li>\
-                        <a href="services.html">Services</a>\
-                    </li>\
-                    <li class="active">\
-                        <a href="contact.html">Contact</a>\
-                    </li>\
-                    <li class="dropdown">\
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>\
-                        <ul class="dropdown-menu">\
-                            <li>\
-                                <a href="acroview.html">Acroview</a>\
-                            </li>\
-                            <li>\
-                                <a href="Elnec.html">Elnec</a>\
-                            </li>\
-                            <li>\
-                                <a href="Minato.html">Minato</a>\
-                            </li>\
-                            <li>\
-                                <a href="sb.html">Shielding Box</a>\
-                            </li>\
-                            <li>\
-                                <a href="MT-1040.html">Wireless Test</a>\
-                            </li>                               \
-                            <li class="active">\
-                            </li>\
-                        </ul>\
-\
-                    </li>\
-                    <li class="dropdown">\
-                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Languages <b class="caret"></b></a>\
-                        <ul class="dropdown-menu">\
-                            <li>\
-                                <a href="index.html">Chienes(Traditional)</a>\
-                            </li>\
-                            <li>\
-                                <a href="index.html">English</a>\
-                            </li>\
-\
-                        </ul>\
-                    </li>\
-                    <li class="dropdown">\
-                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Charter Leader Group  <img width=8% src="image/ctl.png"><b class="caret"></b></a>\
-                        <ul class="dropdown-menu">\
-                            <li>\
-                                <a target="_blank" href="http://www.dgtclp.com/index.html">Dongguan Charter Leader Precision Electronics Co., Ltd</a>\
-                            </li>\
-                            <li>\
-                                <a target="_blank" href="http://www.clpe.com.cn/home/index">Suzhou Charter Leader Precision Electronics Co., Ltd</a>\
-                            </li>\
-                            <li>\
-                                <a href=" http://www.programtek.com.cn/">Suzhou Programming Electronics Technology Co., Ltd</a>\
-                            </li>\
-                          </ul>\
-                    </li>\
-                </ul>\
-            </div>\
-            <!-- /.navbar-collapse -->\
-        </div>\
-        <!-- /.container -->\
-    </nav>';
-
-    
+ document.writeln("<nav class=\'navbar navbar-inverse navbar-fixed-top\' role=\'navigation\'>");
+document.writeln("        <div class=\'container\'>");
+document.writeln("            <!-- Brand and toggle get grouped for better mobile display -->");
+document.writeln("            <div class=\'navbar-header\'>");
+document.writeln("                <button type=\'button\' class=\'navbar-toggle\' data-toggle=\'collapse\' data-target=\'#bs-example-navbar-collapse-1\'>");
+document.writeln("                    <span class=\'sr-only\'>Toggle navigation</span>");
+document.writeln("                    <span class=\'icon-bar\'></span>");
+document.writeln("                    <span class=\'icon-bar\'></span>");
+document.writeln("                    <span class=\'icon-bar\'></span>");
+document.writeln("                </button>");
+document.writeln("                <a class=\'navbar-brand\' href=\'index.html\'>Revaya Technology Co., Ltd.</a>");
+document.writeln("            </div>");
+document.writeln("            <!-- Collect the nav links, forms, and other content for toggling -->");
+document.writeln("            <div class=\'collapse navbar-collapse\' id=\'bs-example-navbar-collapse-1\'>");
+document.writeln("                <ul class=\'nav navbar-nav navbar-right\'>");
+document.writeln("                    <li>");
+document.writeln("                        <a href=\'about.html\'>About</a>");
+document.writeln("                    </li>");
+document.writeln("                    <li>");
+document.writeln("                        <a href=\'services.html\'>Services</a>");
+document.writeln("                    </li>");
+document.writeln("                    <li>");
+document.writeln("                        <a href=\'contact.html\'>Contact</a>");
+document.writeln("                    </li>");
+document.writeln("                    <li class=\'dropdown\'>");
+document.writeln("                        <a href=\'#\' class=\'dropdown-toggle\' data-toggle=\'dropdown\'>Products <b class=\'caret\'></b></a>");
+document.writeln("                        <ul class=\'dropdown-menu\'>");
+document.writeln("                            <li>");
+document.writeln("                                <a href=\'acroview.html\'>Acroview</a>");
+document.writeln("                            </li>");
+document.writeln("                            <li>");
+document.writeln("                                <a href=\'Elnec.html\'>Elnec</a>");
+document.writeln("                            </li>");
+document.writeln("                            <li>");
+document.writeln("                                <a href=\'Minato.html\'>Minato</a>");
+document.writeln("                            </li>");
+document.writeln("                            <li>");
+document.writeln("                                <a href=\'sb.html\'>Shielding Box</a>");
+document.writeln("                            </li>");
+document.writeln("                            <li>");
+document.writeln("                                <a href=\'MT-1040.html\'>Wireless Test</a>");
+document.writeln("                            </li>   ");
+document.writeln("                            <li class=\'active\'>");
+document.writeln("                            </li>");
+document.writeln("                        </ul>");
+document.writeln("                    </li>");
+document.writeln("                    <li class=\'dropdown\'>");
+document.writeln("                      <a href=\'#\' class=\'dropdown-toggle\' data-toggle=\'dropdown\'>Languages <b class=\'caret\'></b></a>");
+document.writeln("                        <ul class=\'dropdown-menu\'>");
+document.writeln("                            <li>");
+document.writeln("                                <a href=\'index.html\'>Chinese(Traditional)</a>");
+document.writeln("                            </li>");
+document.writeln("                            <li>");
+document.writeln("                                <a href=\'index.html\'>English</a>");
+document.writeln("                            </li>");
+document.writeln("");
+document.writeln("                        </ul>                    </li>");
+document.writeln("                    <li class=\'dropdown\'>");
+document.writeln("                        <a href=\'#\' class=\'dropdown-toggle\' data-toggle=\'dropdown\'>Charter Leader Group  <img width=8% src=\'image/ctl.png\'><b class=\'caret\'></b></a>");
+document.writeln("                        <ul class=\'dropdown-menu\'>");
+document.writeln("                            <li>");
+document.writeln("                                <a target=\'_blank\' href=\'http://www.dgtclp.com/index.html\'>Dongguan Charter Leader Precision Electronics Co., Ltd</a>");
+document.writeln("                            </li>");
+document.writeln("                            <li>");
+document.writeln("                                <a target=\'_blank\' href=\'http://www.clpe.com.cn/home/index\'>Suzhou Charter Leader Precision Electronics Co., Ltd</a>");
+document.writeln("                            </li>");
+document.writeln("                            <li>");
+document.writeln("                                <a href=\' http://www.programtek.com.cn/\'>Suzhou Programming Electronics Technology Co., Ltd</a>");
+document.writeln("                            </li>");
+document.writeln("                          </ul>");
+document.writeln("                    </li>");
+document.writeln("                </ul>");
+document.writeln("            </div>");
+document.writeln("            <!-- /.navbar-collapse -->");
+document.writeln("        </div>");
+document.writeln("        <!-- /.container -->");
+document.writeln("    </nav>");
