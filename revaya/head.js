@@ -5,7 +5,7 @@ document.writeln("    <meta name=\'description\' content=\'\'>");
 document.writeln("    <meta name=\'author\' content=\'\'>");
 document.writeln("");
 document.writeln("    <title>Revaya Technology Co., Ltd.</title>");
-document.writeln("<link rel=\'icon\' href=\'./image/ctl.png\' type=\'image/x-icon\'>");
+document.writeln("<link rel=\'Shortcut icon\' href=\'image/ctl.ico\' type=\'image/x-icon\'>");
 document.writeln("");
 document.writeln("    <!-- Bootstrap Core CSS -->");
 document.writeln("    <link href=\'css/bootstrap.css\' rel=\'stylesheet\'>");
